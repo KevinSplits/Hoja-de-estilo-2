@@ -1,0 +1,65 @@
+$background-color: #39003f;
+$font-color: #ecf0f1;
+$primary-color: #e74c3c;
+$padding: 10px;
+$secondary-color: #c300d8;
+$font-stack: 'Courier', sans-serif;
+$section1-color:rgba(0, 0, 0, 0.500);
+$section2-color:rgba(255, 255, 255, 0.500);
+
+body {
+    background-color: $background-color;
+    color: $font-color;
+    font-family: $font-stack;
+
+    p{
+        font-size: larger;
+    }
+
+    ol{
+        font-size: large;
+    }
+
+    #inicio{
+        background-color: $section1-color;
+        padding: $padding;
+    }
+    #machine{
+        background-color: $section2-color;
+        color: black;
+        padding: $padding;
+    }
+
+}
+
+header {
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    h1 {
+        font-family: $font-stack;
+    }
+
+    nav{
+        background-color: $primary-color;
+        ul{
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            li{
+                display: inline;
+                margin: 0 15px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: larger;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

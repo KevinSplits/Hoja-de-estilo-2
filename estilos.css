@@ -1,0 +1,52 @@
+body {
+  background-color: #39003f;
+  color: #ecf0f1;
+  font-family: "Courier", sans-serif;
+}
+body p {
+  font-size: larger;
+}
+body ol {
+  font-size: large;
+}
+body #inicio {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+body #machine {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 10px;
+}
+
+header {
+  background-color: #c300d8;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-family: "Courier", sans-serif;
+}
+header nav {
+  background-color: #e74c3c;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estilos.css.map */
